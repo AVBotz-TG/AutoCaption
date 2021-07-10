@@ -22,15 +22,26 @@ HELP_TEXT = """
 """    
 
 ABOUT_TEXT = """
-"""
+<b>🤖 <u>About Meh :</u>
+
+● Developed By : [This Person](https://t.me/Animesh941)
+● Updates Channel : [A𝕍Botz](https://t.me/AVBotz)
+● Support : [A𝕍Botz Support](https://t.me/AVBotz_Support)
+● Language : [Python 3](https://www.python.org)
+● Library : [Pyrogram](https://docs.pyrogram.org)
+● Server : [Heroku](https://heroku.com)
+
+©️ Made with ❤️ in 🇮🇳</b>"""
 
 MARKDOWN_TEXT = """
 <b>👀 You can also use Markdown Filters and Buttons for your captions...! 
 
 📝 <code>**Bold Text**</code> 
-📝 <code>__text__</code> 
-📝 <code>`text`</code>
+📝 <code>__Italic text__</code> 
+📝 <code>`Mono text`</code>
 📝 <code>[Hyperlink Text](https://t.me/AVBotz)</code>
+
+📮 <b>Bold,</b> <i>Italic</i>, <code>Mono</code>, [Hyperlink Text](https://t.me/AVBotz)
 
 © Made by @AVBotz ❤️</b>
 """
