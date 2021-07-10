@@ -11,43 +11,11 @@ from database.database import *
 from translation import Translation
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-START_BUTTONS=InlineKeyboardMarkup(
-        [
-              [
-                  InlineKeyboardButton("📄 BOT STATUS", callback_data = "status_data")
-              ], 
-              [
-                  InlineKeyboardButton("📫 UPDATES", url = "https://t.me/Ts_bots"), 
-                  InlineKeyboardButton("📕 ABOUT", callback_data = "about_data")
-              ], 
-              [
-                  InlineKeyboardButton("💡 HELP", callback_data = "help_data"), 
-                  InlineKeyboardButton("🔐 CLOSE", callback_data = "close_data")
-              ] 
-        ]
-)
+START_BUTTONS=InlineKeyboardMarkup() 
 
-HELP_BUTTONS=InlineKeyboardMarkup(
-        [
-              [
-                InlineKeyboardButton("ABOUT MARKDOWN", callback_data = "markdown_data")
-              ], 
-              [
-                  InlineKeyboardButton("⬇️ BACK", callback_data = "back_data"), 
-                  InlineKeyboardButton("🔐 CLOSE", callback_data = "close_data")
-              ]
-        ]
-)
+HELP_BUTTONS=InlineKeyboardMarkup() 
 
-ABOUT_BUTTONS=InlineKeyboardMarkup(
-        [
-              [
-                  InlineKeyboardButton("⬇️ BACK", callback_data = "back_data"), 
-                  InlineKeyboardButton("🔐 CLOSE", callback_data = "close_data")
-              ]
-        ]
-) 
-
+ABOUT_BUTTONS=InlineKeyboardMarkup() 
 
 @Client.on_message(filters.command("start") & filters.private)
 async def start(bot, update):
