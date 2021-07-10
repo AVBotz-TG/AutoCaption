@@ -5,9 +5,7 @@ logger = logging.getLogger(__name__)
 
 import pyrogram
 from pyrogram import Client, filters
-from bot import autocaption
 from config import Config
-from database.database import *
 from translation import Translation
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
